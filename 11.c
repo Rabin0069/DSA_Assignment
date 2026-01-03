@@ -3,7 +3,7 @@
 inside the function. Print the sum in the main function. */
 #include <stdio.h>
 
-int sumDivBy3(int arr[], int n)
+int sumDiv(int arr[], int n)
 {
     int i = 0, sum = 0;
     while (i < n)
@@ -28,7 +28,7 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    int result = sumDivBy3(arr, n);
+    int result = sumDiv(arr, n);
     printf("Sum of elements divisible by 3: %d\n", result);
     return 0;
 }
