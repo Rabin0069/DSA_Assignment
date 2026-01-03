@@ -8,9 +8,6 @@ main function by calling this function.
 void readDisplay(int arr[], int n) {
     for(int i = 0; i < n; i++)
         scanf("%d", &arr[i]);
-
-    for(int i = 0; i < n; i++)
-        printf("%d ", arr[i]);
 }
 
 int main() {
@@ -24,3 +21,4 @@ int main() {
 
     return 0;
 }
+
