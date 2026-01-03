@@ -3,7 +3,7 @@ where it occurs. The function should take the array, its size, and the element t
 Use for loop inside the function to find all occurrences. Print the index position(s) in the main function.*/
 #include <stdio.h>
 
-void searchElement(int arr[], int n, int key)
+void search(int arr[], int n, int key)
 {
     int i, found = 0;
     printf("Element %d found at index positions: ", key);
@@ -34,7 +34,7 @@ int main()
     printf("Enter element to search: ");
     scanf("%d", &key);
 
-    searchElement(arr, n, key);
+    search(arr, n, key);
 
     return 0;
 }
