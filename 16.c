@@ -3,7 +3,7 @@ array and its size as parameters and return the count of even numbers. Use for l
 inside the function. If no even number exists, display a proper message in the main function */
 #include <stdio.h>
 
-int count(int arr[], int n)
+int Ecount(int arr[], int n)
 {
     int i, count = 0;
     for (i = 0; i < n; i++)
@@ -16,7 +16,7 @@ int count(int arr[], int n)
 
 int main()
 {
-    int n, i, arr[100], count;
+    int n, i, arr[100], Ecount;
 
     printf("Enter array size: ");
     scanf("%d", &n);
@@ -25,7 +25,7 @@ int main()
     for (i = 0; i < n; i++)
         scanf("%d", &arr[i]);
 
-    count = count(arr, n);
+    Ecount = Ecount(arr, n);
 
     if (evenCount > 0)
         printf("Number of even elements: %d\n", evenCount);
