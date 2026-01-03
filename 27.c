@@ -16,7 +16,7 @@ int main()
     int n, i, a[100];
     printf("Enter array size: \n");
     scanf("%d", &n);
-    printf("\n Array ELements are \n");
+    printf("\n Enter Arry elements \n");
     for (i = 0; i < n; i++)
         scanf("%d", &a[i]);
     swap(a, n);
