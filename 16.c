@@ -27,8 +27,8 @@ int main()
 
     Ecount = Ecount(arr, n);
 
-    if (evenCount > 0)
-        printf("Number of even elements: %d\n", evenCount);
+    if (Ecount > 0)
+        printf("Number of even elements: %d\n", Ecount);
     else
         printf("No even numbers in the array.\n");
 
